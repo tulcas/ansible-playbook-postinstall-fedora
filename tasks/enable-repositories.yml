@@ -3,6 +3,7 @@
   dnf:
    name: "{{ item }}"
    state: present
+   disable_gpg_check: True
   when: ansible_distribution == 'Fedora'
   loop:
    - 'http://mirror.host.ag/rpmfusion/free/fedora/rpmfusion-free-release-{{ansible_distribution_major_version}}.noarch.rpm'
