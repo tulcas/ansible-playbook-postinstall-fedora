@@ -18,7 +18,7 @@ EOT
 `sudo -i`
 
 ## Usage
-1. Run the following command to pull and run the playbook: `ansible-pull -U https://github.com/gmarokov/ansible-playbook-postinstall-fedora.git`
+1. Run the following command to pull and run the playbook: `ansible-pull -U https://github.com/tulcas/ansible-playbook-postinstall-fedora.git`
 
 ## Script details 
 
